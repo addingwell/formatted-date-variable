@@ -68,8 +68,8 @@ ___TEMPLATE_PARAMETERS___
     "name": "format",
     "displayName": "Format",
     "simpleValueType": true,
-    "defaultValue": "%YYYY%-%MM%-%DD%T%hh%:%mm%:%ss%.%mmm%Z",
-    "help": "Write how you want the date to be formatted. Value between % will be replaced.\n\nYYYY: Year ; \nMM: Month ; \nDD: Day ; \nhh: Hours ; \nmm: Minutes ; \nss: Seconds ; \nmmm: Milliseconds",
+    "defaultValue": "%YYYY%-%MM%-%DD%T%hh%:%mm%:%ss%.%sss%Z",
+    "help": "Write how you want the date to be formatted. Value between % will be replaced.\n\nYYYY: Year ; \nMM: Month ; \nDD: Day ; \nhh: Hours ; \nmm: Minutes ; \nss: Seconds ; \nsss: Milliseconds",
     "valueValidators": [
       {
         "type": "NON_EMPTY"
